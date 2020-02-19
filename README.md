@@ -3,8 +3,14 @@
 Lab materials and exercises will be posted here.
 
 * [Week 1](https://github.com/zeynepyirmibes/cmpe150-spring20/blob/master/CMPE150-PS1.pptx)
-"Hello World"
-printf, scanf
+
+<details>
+<summary>"Hello World"</summary>
+</details>
+
+<details>
+<summary>printf, scanf</summary>
+</details>
 
 * [Week 2]
 
