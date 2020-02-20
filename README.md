@@ -4,25 +4,14 @@ Lab materials and exercises will be posted here.
 
 ## [Week 1](https://github.com/zeynepyirmibes/cmpe150-spring20/tree/master/Week%201)
 
-<details>
-<summary>"Hello World"</summary>
-</details>
+* "Hello World"
+* printf, scanf
 
-<details>
-<summary>printf, scanf</summary>
-</details>
+## [Week 2](https://github.com/zeynepyirmibes/cmpe150-spring20/tree/master/Week%202)
 
-## Week 2
-
-<details>
-<summary>Arithmetic Operators</summary>
-</details>
-<details>
-<summary>Data Types</summary>
-</details>
-<details>
-<summary>Variables and Constants</summary>
-</details>
+* Arithmetic Operators
+* Data Types
+* Variables and Constants
 
 ## Materials of Other Sections
 * https://github.com/suyunu/c-notes
