@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 int main(){
-	setbuf(stdout, NULL);
 
 	int no1, no2, sum;
 	printf("Enter the numbers: ");
