@@ -12,7 +12,7 @@ Lab materials and exercises will be posted here.
 <summary>printf, scanf</summary>
 </details>
 
-## [Week 2]
+## Week 2
 
 <details>
 <summary>Arithmetic Operators</summary>
