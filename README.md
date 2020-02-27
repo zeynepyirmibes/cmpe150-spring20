@@ -20,6 +20,10 @@ Lab materials and exercises will be posted here.
 * ASCII codes & characters
 * Advanced operators (increment, decrement)
 
+## [Additional Exercises](https://github.com/zeynepyirmibes/cmpe150-spring20/tree/test/Additional%20Exercises)
+
+* If you want to practice, you can check out the questions posted each week. 
+
 ## Materials of Other Sections
 * https://github.com/suyunu/c-notes
 * https://github.com/melsener/cmpe150
