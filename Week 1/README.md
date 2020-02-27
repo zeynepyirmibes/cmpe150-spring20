@@ -38,10 +38,10 @@ int main(){
 
 # Questions
 
-## [Q1 - "Hello World"](https://github.com/zeynepyirmibes/cmpe150-spring20/blob/test/Week%201/Q1_hello_world.c)
+## [Q1 - "Hello World"](https://github.com/zeynepyirmibes/cmpe150-spring20/blob/master/Week%201/Lab%20Exercises/Q1_hello_world.c)
 
 Output "Hello World" to screen.
 
-## [Q2 - "Integer Sum"](https://github.com/zeynepyirmibes/cmpe150-spring20/blob/test/Week%201/Q2_int_summation.c)
+## [Q2 - "Integer Sum"](https://github.com/zeynepyirmibes/cmpe150-spring20/blob/master/Week%201/Lab%20Exercises/Q2_int_summation.c)
 
 Take two integers from user, and print the sum. 

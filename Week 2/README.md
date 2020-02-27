@@ -45,19 +45,19 @@ return
 
 # Questions
 
-## [Q1 - Float Sum](https://github.com/zeynepyirmibes/cmpe150-spring20/blob/test/Week%202/Q1_float_sum.c)
+## [Q1 - Float Sum](https://github.com/zeynepyirmibes/cmpe150-spring20/blob/master/Week%202/Lab%20Exercises/Q1_float_sum.c)
 
 Take two floats from user, and print the sum. 
 
-## [Q2 - Float Division](https://github.com/zeynepyirmibes/cmpe150-spring20/blob/test/Week%202/Q2_float_division.c)
+## [Q2 - Float Division](https://github.com/zeynepyirmibes/cmpe150-spring20/blob/master/Week%202/Lab%20Exercises/Q2_float_division.c)
 
 Take two integers from user, and make float division.Print the result.
 
-## [Q3 - Arithmetic Operations](https://github.com/zeynepyirmibes/cmpe150-spring20/blob/test/Week%202/Q3_arithmetic.c)
+## [Q3 - Arithmetic Operations](https://github.com/zeynepyirmibes/cmpe150-spring20/blob/master/Week%202/Lab%20Exercises/Q3_arithmetic.c)
 
 Take two integers from user, and print sum, subtraction, multiplication, division and remainder.
 
-## [Q4 - Variable Assignments](https://github.com/zeynepyirmibes/cmpe150-spring20/blob/test/Week%202/Q4_variables.c)
+## [Q4 - Variable Assignments](https://github.com/zeynepyirmibes/cmpe150-spring20/blob/master/Week%202/Lab%20Exercises/Q4_variables.c)
 
 Practice variable assignments. 
 
