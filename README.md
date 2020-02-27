@@ -13,6 +13,13 @@ Lab materials and exercises will be posted here.
 * Data Types
 * Variables and Constants
 
+## [Week 3](https://github.com/zeynepyirmibes/cmpe150-spring20/tree/master/Week%203)
+
+* Implicit & Explicit Casting
+* Overflow
+* ASCII codes & characters
+* Advanced operators (increment, decrement)
+
 ## Materials of Other Sections
 * https://github.com/suyunu/c-notes
 * https://github.com/melsener/cmpe150
