@@ -4,7 +4,7 @@ If you want to practice, additional exercises are posted here weekly.
 
 ## Questions posted on 27.02.2019
 
-Solutions will be posted before the end of Sunday (01.03.2020).
+Solutions are [here](https://github.com/zeynepyirmibes/cmpe150-spring20/tree/master/Additional%20Exercises)
 
 ### Q1 - Rectangle
 
@@ -28,7 +28,7 @@ Write a program that reads three integers from the user. Output the average of t
 
 ### Q3 - To Lowercase
 
-Write a program that reads a character from the user. Convert this character into uppercase , and print. (Hint: Difference between lowercase and uppercase characters are always the same)
+Write a program that reads a character from the user. Convert this character into lowercase , and print. (Hint: Difference between lowercase and uppercase characters are always the same)
 
 |  INPUT  |  OUTPUT |
 |:-------:|:-------:|
@@ -56,5 +56,6 @@ Write a program to convert a given integer (in seconds) to hours, minutes and se
 |:-------:|:-------:|
 | 120 | 0 hours 2 minutes 0 seconds |
 | 67 | 0 hours 1 minutes 7 seconds |
+| 3685 | 1 hours 1 minutes 25 seconds |
 
 <br>
