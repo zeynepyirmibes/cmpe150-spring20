@@ -20,6 +20,11 @@ Lab materials and exercises will be posted here.
 * ASCII codes & characters
 * Advanced operators (increment, decrement)
 
+## [Week 4](https://github.com/zeynepyirmibes/cmpe150-spring20/tree/master/Week%204)
+
+* if, else, else if
+* switch
+
 ## [Additional Exercises](https://github.com/zeynepyirmibes/cmpe150-spring20/tree/master/Additional%20Exercises)
 
 * If you want to practice, you can check out the questions posted each week. 
