@@ -63,7 +63,7 @@ Write a program to convert a given integer (in seconds) to hours, minutes and se
 
 ## Questions posted on Week 4 (06.03.2020)
 
-* Solutions will be poster on 09.03.2020. 
+* Solutions are [here](https://github.com/zeynepyirmibes/cmpe150-spring20/tree/master/Additional%20Exercises)
 
 ### Q6 - Leap Year
 
