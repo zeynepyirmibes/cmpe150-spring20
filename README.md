@@ -25,6 +25,11 @@ Lab materials and exercises will be posted here.
 * if, else, else if
 * switch
 
+## [Week 5](https://github.com/zeynepyirmibes/cmpe150-spring20/tree/master/Week%205)
+
+* while
+* for
+
 ## [Additional Exercises](https://github.com/zeynepyirmibes/cmpe150-spring20/tree/master/Additional%20Exercises)
 
 * If you want to practice, you can check out the questions posted each week. 
