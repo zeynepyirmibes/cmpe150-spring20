@@ -121,15 +121,15 @@ Write a program that takes (X,Y) coordinates from the user, and determines in wh
 Allow the user to enter natural numbers (integers) as long as they want. If the user inputs a negative number, then stop taking inputs, and print their sum (as an integer) and average (as a float). 
 NOTE: Do not take the negative number into your calculation.  
 
-INPUT: 
-1
-9
-8
-5
-7
+INPUT: <br>
+1 <br>
+9 <br>
+8 <br>
+5 <br>
+7 <br>
 -3
 
-OUTPUT: 
+OUTPUT: <br>
 Sum = 30
 Average = 6.0
 
