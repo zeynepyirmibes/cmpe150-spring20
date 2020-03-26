@@ -61,7 +61,8 @@ Write a program to convert a given integer (in seconds) to hours, minutes and se
 
 </details>
 
-## Questions posted on Week 4 (06.03.2020)
+<details>
+<summary>Questions posted on Week 4 (06.03.2020)</summary>
 
 * Solutions are [here](https://github.com/zeynepyirmibes/cmpe150-spring20/tree/master/Additional%20Exercises)
 
@@ -110,3 +111,107 @@ Write a program that takes (X,Y) coordinates from the user, and determines in wh
 | -5 -4  | 3rd quadrant  |
 
 <br>
+
+</details>
+
+## Questions posted on Weeks 5-6-7 (26.03.2020)
+
+### Q10 - Infinite Numbers
+
+Allow the user to enter natural numbers (integers) as long as they want. If the user inputs a negative number, then stop taking inputs, and print their sum (as an integer) and average (as a float). 
+NOTE: Do not take the negative number into your calculation.  
+
+INPUT: 
+1
+9
+8
+5
+7
+-3
+
+OUTPUT: 
+Sum = 30
+Average = 6.0
+
+### Q11 - Factorial
+
+Write a program that takes an integer from the user, and prints the factorial *(do not use any pre-defined C function, compute the factorial yourself)*. If the user has entered a negative number, print "Wrong input!". 
+
+|  INPUT  |  OUTPUT |
+|:-------:|:-------:|
+| 5  | 120  |
+| 2 |  2 |
+| -3  | Wrong input!  |
+
+### Q12 - Exponential
+
+Write a program that takes 2 integers a and b, then prints the result of a^b (a\*a\*a...\*a\*a) using a for/while loop. 
+
+|  INPUT  |  OUTPUT |
+|:-------:|:-------:|
+| 3 4  | 81  |
+| 7 2 |  49 |
+
+### Q13 - Divisors
+
+Take a positive integer from the user. Print its divisors. If the user inputs a negative integer, print "Wrong input!". 
+
+|  INPUT  |  OUTPUT |
+|:-------:|:-------:|
+| 56  | 1 2 4 7 8 14 28 56  |
+| 12 |  1 2 3 4 6 12 |
+| -3  | Wrong input!  |
+
+### Q14 - The Perfect Number
+
+A **perfect number** is a positive integer that is equal to the sum of its proper divisors. The smallest perfect number is 6, which is the sum of 1, 2, and 3.
+
+Take an integer from the user, and tell if it's a perfect number or not. If the user inputs a negative integer, print "Wrong input!". 
+
+|  INPUT  |  OUTPUT |
+|:-------:|:-------:|
+| 56  | Not a perfect number.  |
+| 28 |  Perfect number!!! |
+| 496 |  Perfect number!!! |
+| -3  | Wrong input!  |
+
+### Q15 - Prime Number
+
+Take an integer from the user, and tell if it's a prime number or not. If the user inputs a negative integer, print "Wrong input!". 
+
+|  INPUT  |  OUTPUT |
+|:-------:|:-------:|
+| 18  | Not a prime number.  |
+| 13 |  Prime number!!! |
+| -3  | Wrong input!  |
+
+### Q16 - Fibonacci
+
+Take an integer **n** from the user, and print the first **n** terms of Fibonacci series.
+
+|  INPUT  |  OUTPUT |
+|:-------:|:-------:|
+| 5  | 0 1 1 2 3  |
+| 10 |  0 1 1 2 3 5 8 13 21 34  |
+
+### Q17 - Digits in a Number
+
+##### Q17a: Number of Digits
+
+Take an integer number from the user, and print the number of digits in it. 
+
+|  INPUT  |  OUTPUT |
+|:-------:|:-------:|
+| 5  | 1  |
+| 789  | 3  |
+| 46416465 |  8  |
+
+##### Q17b: Sum of Digits
+
+Take an integer number from the user, and print the sum of the digits in it. 
+
+|  INPUT  |  OUTPUT |
+|:-------:|:-------:|
+| 5  | 5 |
+| 789  | 24  |
+| 46416465 |  36  |
