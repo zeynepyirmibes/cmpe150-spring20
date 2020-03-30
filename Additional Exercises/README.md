@@ -116,6 +116,8 @@ Write a program that takes (X,Y) coordinates from the user, and determines in wh
 
 ## Questions posted on Weeks 5-6-7 (26.03.2020)
 
+Solutions are [here](https://github.com/zeynepyirmibes/cmpe150-spring20/tree/master/Additional%20Exercises)
+
 ### Q10 - Infinite Numbers
 
 Allow the user to enter natural numbers (integers) as long as they want. If the user inputs a negative number, then stop taking inputs, and print their sum (as an integer) and average (as a float). 
