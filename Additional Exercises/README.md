@@ -4,7 +4,7 @@ If you want to practice, additional exercises are posted here weekly.
 
 <details>
 <summary>Questions posted on Week 3 (27.02.2020)</summary>
-<br>
+
 Solutions are [here](https://github.com/zeynepyirmibes/cmpe150-spring20/tree/master/Additional%20Exercises/Week%203%20Solutions)
 
 ### Q1 - Rectangle
@@ -63,7 +63,7 @@ Write a program to convert a given integer (in seconds) to hours, minutes and se
 
 <details>
 <summary>Questions posted on Week 4 (06.03.2020)</summary>
-<br>
+
 * Solutions are [here](https://github.com/zeynepyirmibes/cmpe150-spring20/tree/master/Additional%20Exercises/Week%204%20Solutions)
 
 ### Q6 - Leap Year
