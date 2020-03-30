@@ -4,8 +4,8 @@ If you want to practice, additional exercises are posted here weekly.
 
 <details>
 <summary>Questions posted on Week 3 (27.02.2020)</summary>
-
-Solutions are [here](https://github.com/zeynepyirmibes/cmpe150-spring20/tree/master/Additional%20Exercises)
+<br>
+Solutions are [here](https://github.com/zeynepyirmibes/cmpe150-spring20/tree/master/Additional%20Exercises/Week%203%20Solutions)
 
 ### Q1 - Rectangle
 
@@ -63,8 +63,8 @@ Write a program to convert a given integer (in seconds) to hours, minutes and se
 
 <details>
 <summary>Questions posted on Week 4 (06.03.2020)</summary>
-
-* Solutions are [here](https://github.com/zeynepyirmibes/cmpe150-spring20/tree/master/Additional%20Exercises)
+<br>
+* Solutions are [here](https://github.com/zeynepyirmibes/cmpe150-spring20/tree/master/Additional%20Exercises/Week%204%20Solutions)
 
 ### Q6 - Leap Year
 
@@ -116,7 +116,7 @@ Write a program that takes (X,Y) coordinates from the user, and determines in wh
 
 ## Questions posted on Weeks 5-6-7 (26.03.2020)
 
-Solutions are [here](https://github.com/zeynepyirmibes/cmpe150-spring20/tree/master/Additional%20Exercises)
+Solutions are [here](https://github.com/zeynepyirmibes/cmpe150-spring20/tree/master/Additional%20Exercises/Week%205-6-7%20Solutions)
 
 ### Q10 - Infinite Numbers
 
