@@ -109,7 +109,7 @@ int main()
 -9 <br>
 0 <br>
 
-### Q1 - Sum of Factorial (Teaching Codes PS7)
+### [Q1 - Sum of Factorial (Teaching Codes PS7)](https://github.com/zeynepyirmibes/cmpe150-spring20/blob/master/Week%206/Q1.c)
 
 * Write a program that reads an integer value, and computes the sum of the factorial of each digit . The output will be an integer . For example, assume that the user enters "572" as the input integer. For each digit of the integer, you will compute the factorial. Then you will compute the sum of these factorials: 5! + 7! + 2! = 120 + 5040 + 2 = 5162. 
 
@@ -120,7 +120,7 @@ int main()
 
 <br>
 
-### Q2 - Non-negative Numbers
+### [Q2 - Non-negative Numbers](https://github.com/zeynepyirmibes/cmpe150-spring20/blob/master/Week%206/Q2.c)
 
 * Write a program that will take integers as inputs until the user enters a negative number. Then show the user the sum of all the non-negative numbers he/she entered. **(Use do..while with the break statement)**
 
@@ -133,6 +133,9 @@ int main()
 
 ### Q3 - Prime Numbers
 
+[Solution with i/2](https://github.com/zeynepyirmibes/cmpe150-spring20/blob/master/Week%206/Q3.c) <br>
+[Solution with squareroot](https://github.com/zeynepyirmibes/cmpe150-spring20/blob/master/Week%206/Q3_with_sqrt.c)
+
 * Take two integers from the user (assume first is smaller than the second). Print the prime numbers between them. **(Use nested loops)**
 
 |  INPUT  |  OUTPUT |
@@ -141,7 +144,7 @@ int main()
 | 1 3 | 2 3  |
 | 32 36 |  |
 
-### Q4 - Greatest Common Divisor (Teaching Codes Lab4)
+### [Q4 - Greatest Common Divisor (Teaching Codes Lab4)](https://github.com/zeynepyirmibes/cmpe150-spring20/blob/master/Week%206/Q4.c)
 
 *  Write a program that takes 2 integers and prints their greatest common divisor (GCD). 
 
@@ -155,7 +158,7 @@ int main()
 
 ### Q5 - Triangles
 
-**Q5a:** Write a program to display a right angle triangle with N number of rows, like below.
+**[Q5a:](https://github.com/zeynepyirmibes/cmpe150-spring20/blob/master/Week%206/Q5a.c)** Write a program to display a right angle triangle with N number of rows, like below.
 
 
 **Input:** <br> 5   
@@ -168,7 +171,7 @@ int main()
 
 ---
 
-**Q5b:** Write a program to display a right angle triangle using the number N, which will repeat the number for that row, like below.
+**[Q5b:](https://github.com/zeynepyirmibes/cmpe150-spring20/blob/master/Week%206/Q5b.c)** Write a program to display a right angle triangle using the number N, which will repeat the number for that row, like below.
 
 **Input:** <br> 5   
 **Output:** <br>
@@ -180,7 +183,7 @@ int main()
 
 ---
 
-**Q5c:** Write a program to display a right angle triangle with number increased by 1, like below. 
+**[Q5c:](https://github.com/zeynepyirmibes/cmpe150-spring20/blob/master/Week%206/Q5c.c)** Write a program to display a right angle triangle with number increased by 1, like below. 
 
 **Input:** <br> 4   
 **Output:** <br>
@@ -191,7 +194,7 @@ int main()
 
 ---
 
-### Q6 - Digits (Teaching Codes Lab4)
+### [Q6 - Digits (Teaching Codes Lab4)](https://github.com/zeynepyirmibes/cmpe150-spring20/blob/master/Week%206/Q6.c)
 
 * Write a program that takes a number and prints its total digit count and also even digit count. 
 
@@ -201,7 +204,7 @@ int main()
 | 24680 | 5 5 |
 | 135 | 3 0 |
 
-### Q7 - Continue
+### [Q7 - Continue](https://github.com/zeynepyirmibes/cmpe150-spring20/blob/master/Week%206/Q7.c)
 
 * Write a program that takes a maximum of 10 numbers from the user. Calculate the sum of the numbers, skipping negative inputs. **(Use continue)**
 
