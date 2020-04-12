@@ -291,5 +291,5 @@ Write a program in C to display the n terms of harmonic series and their sum.
 
 |  INPUT  |  OUTPUT |
 |:-------:|:-------:|
-| 3  | 1/1 + 1/2 + 1/3 = 0.666667 |
-| 5  | 1/1 + 1/2 + 1/3 + 1/4 + 1/5 = 2.283334  |
+| 3  | 1/1 + 1/2 + 1/3 = 1.833333 |
+| 5  | 1/1 + 1/2 + 1/3 + 1/4 + 1/5 = 2.283333  |
