@@ -114,7 +114,8 @@ Write a program that takes (X,Y) coordinates from the user, and determines in wh
 
 </details>
 
-## Questions posted on Weeks 5-6-7 (26.03.2020)
+<details>
+<summary>Questions posted on Week 5 (26.03.2020)</summary>
 
 Solutions are [here](https://github.com/zeynepyirmibes/cmpe150-spring20/tree/master/Additional%20Exercises/Week%205-6-7%20Solutions)
 
@@ -217,3 +218,78 @@ Take an integer number from the user, and print the sum of the digits in it.
 | 5  | 5 |
 | 789  | 24  |
 | 46416465 |  36  |
+
+</details>
+
+## Questions posted on Week 6 (12.04.2020)
+
+### Q18: Half Diamond Star
+
+Write a C program to print a half diamond star pattern using for loop.
+
+INPUT: <br>
+5
+OUTPUT: <br>
+```c
+*
+**
+***
+****
+*****
+****
+***
+**
+*
+```
+
+
+### Q19: Hollow Triangle
+
+Write a C program to print the given triangle number pattern using 0, 1.
+
+INPUT: <br>
+6
+OUTPUT: <br>
+```c
+1
+11
+101
+1001
+10001
+111111
+```
+
+### Q20: Valid Triangle
+
+Write a C program that takes three sides of a triangle and check whether the triangle is valid or not. (Apply the rule (side1 + side2 > side3) to all sides)
+
+|  INPUT  |  OUTPUT |
+|:-------:|:-------:|
+| 7 4 10  | Valid |
+| 1 3 1  | Invalid  |
+
+### Q21: 100 Characters
+
+Take a maximum of 100 characters from the user. Stop taking inputs when the user enters dot (.), and print the number lowercase, uppercase letters, and the number of digits the user entered. Use break. (Take the characters with enter (newline) between them)
+
+INPUT: <br>
+a <br>
+Y  <br>
+6  <br>
+8  <br>
+T  <br>
+W <br>
+.  <br>
+OUTPUT: <br>
+Lowercase: 1 <br>
+Uppercase: 3  <br>
+Digit: 2  <br>
+
+### Q22: Harmonic
+
+Write a program in C to display the n terms of harmonic series and their sum.
+
+|  INPUT  |  OUTPUT |
+|:-------:|:-------:|
+| 3  | 1/1 + 1/2 + 1/3 = 0.666667 |
+| 5  | 1/1 + 1/2 + 1/3 + 1/4 + 1/5 = 2.283334  |
