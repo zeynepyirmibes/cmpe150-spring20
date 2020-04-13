@@ -223,6 +223,8 @@ Take an integer number from the user, and print the sum of the digits in it.
 
 ## Questions posted on Week 6 (12.04.2020)
 
+Solutions are [here](https://github.com/zeynepyirmibes/cmpe150-spring20/tree/master/Additional%20Exercises/Week%206%20Solutions)
+
 ### Q18: Half Diamond Star
 
 Write a C program to print a half diamond star pattern using for loop.
