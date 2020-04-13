@@ -42,4 +42,5 @@ Lab materials and exercises will be posted here.
 ## Materials of Other Sections
 * https://github.com/suyunu/c-notes
 * https://github.com/melsener/cmpe150
+* https://github.com/gokceuludogan/cmpe150
 
