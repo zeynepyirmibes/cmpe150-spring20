@@ -117,7 +117,7 @@ Write a program that takes (X,Y) coordinates from the user, and determines in wh
 <details>
 <summary>Questions posted on Week 5 (26.03.2020)</summary>
 
-Solutions are [here](https://github.com/zeynepyirmibes/cmpe150-spring20/tree/master/Additional%20Exercises/Week%205-6-7%20Solutions)
+Solutions are [here](https://github.com/zeynepyirmibes/cmpe150-spring20/tree/master/Additional%20Exercises/Week%205%20Solutions)
 
 ### Q10 - Infinite Numbers
 
