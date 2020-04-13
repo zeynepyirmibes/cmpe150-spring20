@@ -35,6 +35,10 @@ Lab materials and exercises will be posted here.
 * do..while
 * Nested Loops
 
+## [Week 7](https://github.com/zeynepyirmibes/cmpe150-spring20/tree/master/Week%207)
+
+* Functions
+
 ## [Additional Exercises](https://github.com/zeynepyirmibes/cmpe150-spring20/tree/master/Additional%20Exercises)
 
 * If you want to practice, you can check out the questions posted each week. 
