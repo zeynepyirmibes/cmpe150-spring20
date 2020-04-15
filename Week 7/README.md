@@ -155,7 +155,7 @@ int even_odd(int n)
 
 **Input:** <br>
 3 7 <br>
-**Output: ** <br>
+**Output:** <br>
 ```c 
 *******
 *******
