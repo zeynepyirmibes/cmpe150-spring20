@@ -221,7 +221,8 @@ Take an integer number from the user, and print the sum of the digits in it.
 
 </details>
 
-## Questions posted on Week 6 (12.04.2020)
+<details>
+<summary>Questions posted on Week 6 (12.04.2020)</summary>
 
 Solutions are [here](https://github.com/zeynepyirmibes/cmpe150-spring20/tree/master/Additional%20Exercises/Week%206%20Solutions)
 
@@ -295,3 +296,92 @@ Write a program in C to display the n terms of harmonic series and their sum.
 |:-------:|:-------:|
 | 3  | 1/1 + 1/2 + 1/3 = 1.833333 |
 | 5  | 1/1 + 1/2 + 1/3 + 1/4 + 1/5 = 2.283334  |
+
+</details>
+
+## Questions posted on Week 7 (16.04.2020)
+
+### Q23: Number Pyramid
+
+* Write a function named **pyramid** which takes an integer as input: **num_of_rows**, then prints the pyramid of numbers increased by 1 shown below. This function shouldn't return anything.
+* Then write main appropriately to see the result.
+
+```c
+Input:
+4
+
+Output:
+   1
+  2 3
+ 4 5 6
+7 8 9 10
+
+
+Input:
+3
+
+Output:
+  1
+ 2 3
+4 5 6
+```
+
+### Q24: Binary
+
+* Write a function that will take an integer as a parameter. Then calculates and returns its binary version as another integer. Then write main appropriately to see the result.
+
+* You can reference [this link](https://www.mathsisfun.com/binary-number-system.html) to understand/create binary numbers.
+
+|  INPUT  |  OUTPUT |
+|:-------:|:-------:|
+| 25 | 11001 |
+| 532  | 1000010100  |
+| 5  | 101  |
+
+### Q25: Leading Digit
+
+* Write a function that takes a positive integer (you may use a **long int**) as input and returns the leading digit (leftmost digit). For example, the leading digit of 234567 is 2.
+* Then write main appropriately to see the result.
+
+|  INPUT  |  OUTPUT |
+|:-------:|:-------:|
+| 234567 | 2 |
+| 804  | 8  |
+| 0  | 0  |
+
+### Q26: Absolutely
+
+* Write a (boolean) function **isNegative** that takes an integer as an input, and returns 1 (true) if the number is negative, returns 0 (false) if it is positive or zero. (You can reference the [isLower](https://github.com/zeynepyirmibes/cmpe150-spring20/blob/master/Week%207/Q5.c) function we implemented in class) 
+
+* Then write an **absolute** function, that takes an integer, and (using the isNegative function you've written) returns its absolute value. 
+
+* Organize the main function to see the result. 
+
+|  INPUT  |  OUTPUT |
+|:-------:|:-------:|
+| -98 | 98 |
+| 5 | 5  |
+| 0  | 0  |
+| -62  | 62  |
+
+### Q27: Multiplication Table
+
+* Write a function **mulTable**, that takes an integer as input, and prints this number's multiplication table. This function shouldn't return anything. 
+
+* Organize the main function to see the result. 
+
+```c
+Input: 
+2
+Output:
+2 * 1 = 2 
+2 * 2 = 4 
+2 * 3 = 6 
+2 * 4 = 8 
+2 * 5 = 10 
+2 * 6 = 12 
+2 * 7 = 14 
+2 * 8 = 16 
+2 * 9 = 18 
+2 * 10 = 20
+```
