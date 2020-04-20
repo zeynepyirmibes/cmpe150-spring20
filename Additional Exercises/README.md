@@ -301,6 +301,8 @@ Write a program in C to display the n terms of harmonic series and their sum.
 
 ## Questions posted on Week 7 (16.04.2020)
 
+Solutions are [here](https://github.com/zeynepyirmibes/cmpe150-spring20/tree/master/Additional%20Exercises/Week%207%20Solutions)
+
 ### Q23: Number Pyramid
 
 * Write a function named **pyramid** which takes an integer as input: **num_of_rows**, then prints the pyramid of numbers increased by 1 shown below. This function shouldn't return anything.
