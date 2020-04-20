@@ -39,6 +39,11 @@ Lab materials and exercises will be posted here.
 
 * Functions
 
+## [Week 8](https://github.com/zeynepyirmibes/cmpe150-spring20/tree/master/Week%208)
+
+* Functions (Call by Reference)
+* Pointers
+
 ## [Additional Exercises](https://github.com/zeynepyirmibes/cmpe150-spring20/tree/master/Additional%20Exercises)
 
 * If you want to practice, you can check out the questions posted each week. 

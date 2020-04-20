@@ -118,7 +118,8 @@ In the main function send variables x and c to the **alter** function and then p
 
 int main()
 {
-    int x, c;
+    int x;
+    char c;
     
     scanf("%d %c", &x, &c);
     
