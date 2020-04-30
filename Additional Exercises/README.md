@@ -299,7 +299,8 @@ Write a program in C to display the n terms of harmonic series and their sum.
 
 </details>
 
-## Questions posted on Week 7 (16.04.2020)
+<details>
+<summary>Questions posted on Week 7 (16.04.2020)</summary>
 
 Solutions are [here](https://github.com/zeynepyirmibes/cmpe150-spring20/tree/master/Additional%20Exercises/Week%207%20Solutions)
 
@@ -387,3 +388,76 @@ Output:
 2 * 9 = 18 
 2 * 10 = 20
 ```
+
+</details>
+
+## Questions posted on Week 8-9 (30.04.2020)
+
+### Q28: Cube
+
+* Write a function named **cubeByReference()**
+
+* **cubeByReference** takes an integer pointer and computes the cube of the integer (doesn't return anything, but changes the value of the integer). Take the integer from the user, and then print it's value after calling the function.
+
+|  INPUT  |  OUTPUT |
+|:-------:|:-------:|
+| 2 | 8 |
+| 3 | 27  |
+| 4  | 64  |
+| -5  | -125  |
+
+### Q29: Lower-Upper
+
+* Write a function named **avertCharacter()**
+
+* **avertCharacter** should take a pointer to a character (char). The function should change the character to lower if it's upper, and to upper if it's lower (This function shouldn't return anything, but changes the value of the character). If the character is not a letter, it should remain the same. Take the character from the user, and then print it's value after calling the function.
+
+|  INPUT  |  OUTPUT |
+|:-------:|:-------:|
+| b | B |
+| Y | y  |
+| R  | r  |
+| .  | .  |
+| 5  | 5  |
+
+### Q30: Complex Powers (Old Midterm Question)
+
+* Think about how we write the regular power.
+
+![Complex Powers](figures/q_complex.png)
+
+
+### Q31: Counts
+
+* Write a program which reads an integer N from the user, then reads N integers from the user to an array. Then find frequency of each element in the array. Assume N is smaller than 1000 and the entered numbers will be between 0 and 100 (inclusive).
+
+|  INPUT  |  OUTPUT |
+|-------|-------|
+| 10<br>5 10 2 5 50 5 10 1 2 2 | 1 --> 1<br>2 --> 3<br>5 --> 3<br>10 --> 2<br>50 --> 1 |
+
+### Q32: Statistics
+
+Write a program that reads an integer N from the user, then reads N more integers from the user and store them in an array. Then prints the sum, average and variance of the elements (Assume N is smaller than 50).
+
+<img src="figures/variance.png" width="300">
+
+
+| Input                         | Output      |
+| ----------------------------- | ----------- |
+| 10 <br />1 2 3 4 5 6 7 8 9 10 | 55 5.50 8.25|
+| 4<br />4 1 3 8                | 16 4.00 6.50|
+
+<br>
+
+### Q33: Pairs
+
+Write a program which reads an integer N and an integer X from the user, then reads N integers from the user to an array. Then find all pairs in the array whose sum is equal to X. 
+
+* A number can not be a pair with itself. Pairs should consist of different numbers.
+* You can print either (3,4) or (4,3) for one pair.
+* You should print all the pairs even if they are same.
+
+|  INPUT  |  OUTPUT |
+|-------|-------|
+| 7 7<br>2 4 3 5 7 8 9 | (2, 5)<br>(4, 3) |
+| 10 7<br>2 4 3 5 6 -2 4 7 8 9 | (2, 5)<br>(4, 3)<br>(3, 4)<br>(-2, 9) |
