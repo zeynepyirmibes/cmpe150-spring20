@@ -393,6 +393,8 @@ Output:
 
 ## Questions posted on Week 8-9 (30.04.2020)
 
+Solutions are [here](https://github.com/zeynepyirmibes/cmpe150-spring20/tree/master/Additional%20Exercises/Week%208-9%20Solutions)
+
 ### Q28: Cube
 
 * Write a function named **cubeByReference()**
