@@ -59,7 +59,6 @@ void printArray(int *arr, int len)
    for(i = 0; i < len; i++)
    {
       printf("%d ", arr[i]);
-      arr++;
    }
 }
 ```
@@ -376,9 +375,9 @@ The output will be:
 
 ## Questions
 
-### Q1 - Pairs (a modified version of Additional Exercises Q33)
+### Q1 - Pairs
 
-Write a program which reads an integer N and an integer X from the user, then reads N integers from the user to an array. Then find all pairs in the array whose sum is equal to X. To achieve this, write a boolean function named *isSumEqual* that takes three integers N, M, and X as arguments and returns *True* if the sum of N and M is equal to X, otherwise returns *False*.
+Write a program which reads an integer N and an integer X from the user, then reads N integers from the user to an array. Then find all pairs in the array whose sum is equal to X.
 
 * A number can not be a pair with itself. Pairs should consist of different numbers.
 * You can print either (3,4) or (4,3) for one pair.
