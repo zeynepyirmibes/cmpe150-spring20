@@ -391,7 +391,9 @@ Output:
 
 </details>
 
-## Questions posted on Week 8-9 (30.04.2020)
+<details>
+<summary>Questions posted on Week 8-9 (30.04.2020)</summary>
+
 
 Solutions are [here](https://github.com/zeynepyirmibes/cmpe150-spring20/tree/master/Additional%20Exercises/Week%208-9%20Solutions)
 
@@ -463,3 +465,90 @@ Write a program which reads an integer N and an integer X from the user, then re
 |-------|-------|
 | 7 7<br>2 4 3 5 7 8 9 | (2, 5)<br>(4, 3) |
 | 10 7<br>2 4 3 5 6 -2 4 7 8 9 | (2, 5)<br>(4, 3)<br>(3, 4)<br>(-2, 9) |
+
+</details>
+
+## Questions posted on Week 10 (09.05.2020)
+
+### Q34: Pass me the Array
+
+Write a function that takes an integer array as argument and changes all the elements to 1. Write another function that takes an integer pointer, which will be used for increasing the elements of an array by ``i+1``. In the main, create an integer array and initialize it with 1, 2, 3, 4, 5. 
+
+ 1. Call the first function by passing the array as argument, then print the contents of the array. 
+
+ 2. Call the second function by passing the address of the first element as the argument, then print the contents of the array.
+
+ 3. Call the first function by passing the address of the first element as the argument, then print the contents of the array.
+
+ 4. Call the second function by passing the array as argument, then print the contents of the array.
+
+    **Hint:** You can define the size of the array by ``#define SIZE 5``. It would make traversing easier.
+
+### Q35: Erase (Teaching Codes Lab8-Ex1)
+
+* Write a function which takes two integer arrays arr1, arr2, and their sizes as two integers N and M. Then the function should remove all the elements in arr2 from arr1. The function should update arr1 so that it no longer contain elements from arr2. The function should return the new size of arr1. Hint: you can create and use another temporary array in the function.
+
+* Then in the main program, read two arrays from the user (first their sizes N, M, and then N+M integers as array elements). Then call the function passing the arrays and their sizes. Then print the first array to see the updated version.
+
+    Input: <br>10 3 <br>1 2 3 4 7 5 5 12 7 7 <br>5 3 12
+
+    Output: <br>New Size:6 <br>1 2 4 7 7 7
+
+### Q36: Unique
+
+* Write a program that takes an integer array and its size from the user. Then print the unique elements in the array. 
+
+* Hint: You can keep counts of integers in another array (assuming the user won't enter extremely large numbers).
+
+Input: <br>10 <br>1 2 3 5 1 5 20 2 12 10
+
+Output: <br>3 20 12 10
+
+### Q37: Sums
+
+* Write a function **sumOfRows()** that takes in a 2-dimensional integer array, and its sizes N and M. This function should calculate and print the sum of each of the array's rows. 
+
+* Write a function **sumOfColumns()** that takes in a 2-dimensional integer array, and its sizes N and M. This function should calculate and print the sum of each of the array's columns. 
+
+* Take the 2-d array and its sizes from the user. Then call your functions. 
+
+Input: <br>3 3 <br> 1 2 3 <br>
+ 4 5 6 <br>
+ 7 8 9
+
+Output: <br>  Sum of elements of Row 1 = 6 <br>
+ Sum of elements of Row 2 = 15 <br>
+ Sum of elements of Row 3 = 24 <br>
+ Sum of elements of Column 1 = 12 <br>
+ Sum of elements of Column 2 = 15 <br>
+ Sum of elements of Column 3 = 18
+ 
+ ### Q38: Triangular
+ 
+* Upper triangular matrix is a special square matrix whose all elements **below** the main diagonal is zero. 
+* Lower triangular matrix is a special square matrix whose all elements **above** the main diagonal is zero.
+
+* Write a boolean function **isUpperTriangular()** that checks if a 3x3 array is upper triangular (see example below), and returns 1 if it is, and 0 if it's not. 
+ 
+* Write a boolean function **isLowerTriangular()** that checks if a 3x3 array is lower triangular (see example below), and returns 1 if it is, and 0 if it's not. 
+ 
+* Take the 3x3 array from the user. Check its triangularity :) 
+
+Input: <br>1 2 3<br>
+0 5 6<br>
+0 0 9
+
+Output: <br>  It is upper triangular. <br> It's not lower triangular. 
+
+
+Input: <br>1 0 0<br>
+4 5 0 <br>
+7 8 9
+
+Output: <br>  It's not upper triangular. <br> It is lower triangular. 
+
+Input: <br>1 4 7<br>
+4 5 0 <br>
+7 8 9
+
+Output: <br>  It's not upper triangular. <br> It's not lower triangular. 
