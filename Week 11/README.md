@@ -8,39 +8,130 @@
 * String is a character array: char str[101];
 * Ends with the null character ('\0').
 * char str[] = "Hello"; = char str[] = {'H', 'e', 'l', 'l', 'o', '\0'};
+* We use the %s identifier for strings. 
 
 **Single quotes for characters, double quotes for strings!**
 
+### Initializing Strings
+
+There are a few ways to initialize strings: 
+
+ ```c
+char c[] = "abcd";
+
+char c[50] = "abcd";
+
+char c[] = {'a', 'b', 'c', 'd', '\0'};
+
+char c[5] = {'a', 'b', 'c', 'd', '\0'};
+ ```
+
 * No need to track size of it. 
 
-  * ```c
-    char str[] = "Hello World!";
-    for(int i=0; str[i] != '\0'; i++)
-    	printf("%c-", str[i]);
-    ```
+### Assigning Values to Strings
 
-### Output
+* Arrays and strings do not support the assignment operator once it is declared:
 
-* `printf("%s\n", str);`  =  `puts(str);`
+ ```c
+char c[100];
+c = "C programming";  // Error! array type is not assignable.
+ ```
+* Instead, we can use the **strcpy()** function from the string.h library. 
 
-### Input
+* `char* strcpy(char* destination, const char* source);`
+ 
+* The strcpy() function copies the string pointed by source to the destination.
+* The strcpy() function also returns the copied string.
+```c
+char c[100];
+// copying "C programming" to c
+strcpy(c, "C programming");
+```
 
-* `char str[101];`
+### Reading Strings - scanf()
 
-* `gets(str); // Reads until enter`
+**scanf** reads the string until space.
 
-* `scanf("%s", str); // Reads until space`
+```c
+#include <stdio.h>
+int main()
+{
+    char name[20];
+    printf("Enter name: ");
+    scanf("%s", name);
+    printf("Your name is %s.", name);
+    return 0;
+}
+```
+**Output:** <br>Enter name: Dennis Ritchie <br>
+Your name is Dennis.
 
-* **Safer**: `fgets(str, 21, stdin);`
+### Reading Strings - gets(), fgets()
+
+* **gets** reads the string until enter. 
+
+```c
+#include<stdio.h>
+int main()
+{
+  char str[100];
+  printf("Enter a string: ");
+  gets(str);
+  printf("The Entered string : %s\n",str);
+  return 0;
+}
+```
+
+* It's safer to use: **fgets**
+
+```c
+#include<stdio.h>
+int main()
+{
+   char str[100];
+   printf("Enter a string: ");
+   fgets(str, sizeof(str), stdin);
+   printf("The entered string: %s",str);
+   return 0;
+}
+```
+
+* The gets() and fgets() do not work the same. The gets() function converts newline character to the end-of-string character (‘\0’) but fgets() don’t convert newline character, it puts a newline character in the string and appends an end-of-string character (‘\0’).
+
+![gets](https://i1.wp.com/www.knowprogram.com/wp-content/uploads/2019/10/read-string-using-gets-fgets.png?w=693&ssl=1)
 
 * You can refer to: [Useful Link for Reading and Printing Strings](https://www.knowprogram.com/c-programming/read-and-display-the-string-in-c-programming/)
+
+### Printing Strings - printf(), puts()
+
+* We use the %s identifier for strings. 
+* `printf("%s\n", str);`  is equivalent to  `puts(str);`
 
 ### Passing strings to functions
 
 * Same as arrays: pass by reference.
 * No need to pass the size. 
 
-### Built-in string library
+```c
+#include <stdio.h>
+void displayString(char str[]);
+
+int main()
+{
+    char str[50];
+    printf("Enter string: ");
+    fgets(str, sizeof(str), stdin);             
+    displayString(str);     // Passing string to a function.    
+    return 0;
+}
+void displayString(char str[])
+{
+    printf("String Output: ");
+    puts(str);
+}
+```
+
+### Built-in string library: string.h
 
 * #include <string.h>
 * strlen(): Length of a string
