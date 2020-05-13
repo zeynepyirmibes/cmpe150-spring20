@@ -153,7 +153,7 @@ void displayString(char str[])
 
 ### Q1 - Length (Teaching.Codes PS13 - Example 1) 
 
-* Write a function that compute the length of a given string.
+* Write a function that computes the length of a given string.
 
 |  INPUT  |  OUTPUT |
 |-------|-------|
@@ -194,7 +194,7 @@ Hint: Try using strcpy function from string.h library.
 
 |  INPUT  |  OUTPUT |
 |-------|-------|
-| count the total number of words in a string 3 | total |
+| count the total number of words in a string <br>3 | total |
 
 ### Q5b
 
@@ -203,19 +203,11 @@ Hint: Try using strcpy function from string.h library.
 
 |  INPUT  |  OUTPUT |
 |-------|-------|
-| count the total number of words in a string 3 | count the number of words in a string |
+| count the total number of words in a string <br>3 | count the number of words in a string |
 
-### Q6a
+### Q6: Max Character
 
-* Write a program to find maximum occurring character in a string assume all characters in lowercase.
-
-|  INPUT  |  OUTPUT |
-|-------|-------|
-| she borrowed the book | o |
-
-### Q6b
-
-* Update your program so that it would work with all characters not only lowercase ones.
+* Write a program to find the maximum occurring character in a string.
 
 |  INPUT  |  OUTPUT |
 |-------|-------|
