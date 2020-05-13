@@ -470,6 +470,8 @@ Write a program which reads an integer N and an integer X from the user, then re
 
 ## Questions posted on Week 10 (09.05.2020)
 
+Solutions are [here](https://github.com/zeynepyirmibes/cmpe150-spring20/tree/master/Additional%20Exercises/Week%2010%20Solutions)
+
 ### Q34: Pass me the Array
 
 Write a function that takes an integer array as argument and changes all the elements to 1. Write another function that takes an integer pointer, which will be used for increasing the elements of an array by ``i+1``. In the main, create an integer array and initialize it with 1, 2, 3, 4, 5. 
