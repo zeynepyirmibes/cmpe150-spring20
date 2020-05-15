@@ -224,3 +224,11 @@ Hint: You can use bubble sort algorithm.
 |  INPUT  |  OUTPUT |
 |-------|-------|
 | the lake is a long way from here | a from here is lake long the way |
+
+### [Extra: String to Lowercase](https://github.com/zeynepyirmibes/cmpe150-spring20/blob/master/Week%2011/extra-string_to_lower.c)
+
+* Write a program to take a string from the user, and convert it into lowercase. 
+
+|  INPUT  |  OUTPUT |
+|-------|-------|
+| All the Single Ladies!! | all the single ladies!! |
