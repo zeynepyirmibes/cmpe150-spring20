@@ -560,6 +560,8 @@ Output: <br>  It's not upper triangular. <br> It's not lower triangular.
 </details>
 
 ## Questions posted on Week 11 (16.05.2020)
+
+Solutions are [here](https://github.com/zeynepyirmibes/cmpe150-spring20/tree/master/Additional%20Exercises/Week%2011%20Solutions)
  
 ### Q39: Substring
 
