@@ -468,7 +468,9 @@ Write a program which reads an integer N and an integer X from the user, then re
 
 </details>
 
-## Questions posted on Week 10 (09.05.2020)
+<details>
+<summary>Questions posted on Week 10 (09.05.2020)</summary>
+
 
 Solutions are [here](https://github.com/zeynepyirmibes/cmpe150-spring20/tree/master/Additional%20Exercises/Week%2010%20Solutions)
 
@@ -554,3 +556,43 @@ Input: <br>1 4 7<br>
 7 8 9
 
 Output: <br>  It's not upper triangular. <br> It's not lower triangular. 
+
+</details>
+
+## Questions posted on Week 11 (16.05.2020)
+ 
+### Q39: Substring
+
+* Write a boolean function **isSubstring()** to check whether a given substring is present in the given string. It should return 0 if it's not a substring, and 1 if it is a substring. 
+
+|  INPUT  |  OUTPUT |
+|-------|-------|
+| i ben, love seni, you seviyorum<br>you | 1 |
+| i ben, love seni, you seviyorum<br>seviyo | 1 |
+| i ben, love seni, you seviyorum<br>we | 0 |
+
+### Q40: Exclude (Teaching.Codes Lab8b - Question 1)
+
+
+* Write a program which reads a sentence as a string, and a word as a string. Then the program should exclude this word from the sentence if the sentence contains the word (if the word occurs multiple times, it should exclude all occurences), then print the new version to the screen. Assume no punctuation will occur, and every letter is lower case.
+
+|  INPUT  |  OUTPUT |
+|-------|-------|
+| gemi biraz sola mı çekiyor<br>biraz | gemi sola mı çekiyor |
+| dünyalılardan tiskiniyorum tiskiniyorum<br>tiskiniyorum | dünyalılardan |
+
+### Q41: ReVeRsE 
+
+* Write a program to read a sentence and replace lowercase characters by uppercase and vice-versa. 
+
+|  INPUT  |  OUTPUT |
+|-------|-------|
+| This Is A Test String. | tHIS iS a tEST sTRING. |
+
+### Q42: Word Lengths
+
+* Write a program to find the largest and smallest word in a string. (If two strings have the same length, you can select any)
+
+|  INPUT  |  OUTPUT |
+|-------|-------|
+| Dogada bulunan dort element ates su toprak tahta | Largest: bulunan<br>Smallest: su|
