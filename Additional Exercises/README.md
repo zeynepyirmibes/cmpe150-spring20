@@ -582,6 +582,9 @@ Solutions are [here](https://github.com/zeynepyirmibes/cmpe150-spring20/tree/mas
 |-------|-------|
 | gemi biraz sola mı çekiyor<br>biraz | gemi sola mı çekiyor |
 | dünyalılardan tiskiniyorum tiskiniyorum<br>tiskiniyorum | dünyalılardan |
+| merhaba dunyali nasilsin<br>dunyali | merhaba nasilsin |
+
+![](figures/q40.png)
 
 ### Q41: ReVeRsE 
 
