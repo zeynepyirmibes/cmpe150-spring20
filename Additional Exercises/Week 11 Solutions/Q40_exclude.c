@@ -2,6 +2,14 @@
 #include <stdlib.h>
 #define MAX 50
 
+void crop_newline(char str[]){
+	int i=0;
+	while(str[i] != '\r' && str[i] != '\n'){ // \r is added for Windows users
+		i++;
+	}
+	str[i] = '\0';
+}
+
 // calculates length of the string
 int len(char a[]){
 	int counter = 0;
@@ -18,28 +26,31 @@ int main(void) {
 
 	fgets(second,MAX,stdin);
 
+	crop_newline(second);
+
 	int len_1 = len(first);
 	int len_2 = len(second);
 
 	int i,j;
+
 	for(i = 0;i<=len_1-len_2;i++){
 
-		for(j=0;j<len_2-1;j++)
+		for(j=i;j<i + len_2;j++)
 		{
-			if(first[i+j]!=second[j])
+			if(first[j]!=second[j-i])
 				break;
 		}
-		if(j == len_2-1)	// if inner loop completed, we have a matching
+		if(j == i + len_2)	// if inner loop completed, we have a matching
 		{
 
 			//check if it is a word. we do not want to crop some part of a word
 			// ex: indifferent indirect inabilities
 			// ex: in
-			if(first[i + j] == ' ' || first[i + j] == '\t' || first[i + j] == '\n' ||  first[i + j] == '\0')
+			if(first[j] == ' ' || first[j] == '\t' || first[j] == '\n' ||  first[j] == '\r' || first[j] == '\0')
 			{	int k;
 				//shift the remaining words to the left
 				for(k = i ; first[k]!='\0';k++){
-					first[k] = first[k+len_2];
+					first[k] = first[k+1+len_2];
 				}
 
 				len_1 = len_1 - len_2+1; //	keep track of the length of the sentence
