@@ -9,7 +9,7 @@ int isSubstring(char str[], char search_str[]){
 
 	// We search for the substring in string, using windows of length: len_search_str
 	for(i=0;i<=len_str-len_search_str;i++)
-	{ 
+	{
 		for(j=i;j<i+len_search_str;j++)
 		{
 			substring_flag=1;
@@ -27,17 +27,17 @@ int isSubstring(char str[], char search_str[]){
 
 void crop_newline(char str[]){
 	int i=0;
-	while(str[i] != '\n'){
+	while(str[i] != '\r' && str[i] != '\n'){
 		i++;
 	}
 	str[i] = '\0';
 }
 
 
-void main()
+int main()
 {
-	char str[MAX],search[MAX];	
-	
+	char str[MAX],search[MAX];
+
     fgets(str, MAX, stdin);
 
 	fgets(search, MAX, stdin);
