@@ -30,25 +30,29 @@ Example Output:
 7 0x7ffee3b6c3d8 8 0x7ffee3b6c3dc 9 0x7ffee3b6c3e0
 ```
 
+![2D Array with Pointer](figures/pointer-notation-of-two-dimensional-array.png)
+
 ### Q4 - Search (Teaching.Codes PS12-Ex3) (Array)
 
-* Suppose we have a sorted array with size N. Write a function that finds a given number in this array, and returns the index of its location. If the number is not found, your function should return -1. Perform search by using binary search algorithm. 
+* Suppose we have a sorted array with size N. Write a function that finds a given number in this array, and returns the index of its location. If the number is not found, your function should return -1. Perform search by using binary search algorithm.
+
+![Binary Search](figures/Binary-Search.png)
 
 | Input1          | Input2 | Output                 |
 | --------------- | ------ | ---------------------- |
 | 0 2 3 4 7 8 8 9 | 5      | value not found        |
 | 0 3 7 8 9       | 7      | value found at index 2 |
 
-### Q5 - Shift the Array (Multi-dim Array)
+### Q5 - Shift the Matrix (Multi-dim Array)
 
-Write a function called **rightShiftA()** that takes the size of the array (N), an integer array (arr) and an integer variable (T) as parameters. The function right shifts the array T times.
+Write a function called **rightShiftM()** that takes two integers as the sizes of the 2D array (N and M), a integer 2D array (arr) and an integer variable (T) as parameters. The function right shifts the 2D array T times.
 
-Write a proper main function to see the effect of **rightShiftA()**.
+Write a proper main function to see the effect of **rightShiftM()**.
 
 |  INPUT  |  OUTPUT |
 |-------|-------|
-| 5 <br>1 2 3 4 5 <br>3 | 3 4 5 1 2 |
-| 4 <br>1 2 3 4 <br>10 | 3 4 1 2 |
+| 2 3 <br>1 2 3 <br>4 5 6 <br>4 | 3 4 5 <br>6 1 2 |
+| 2 3 <br>1 2 3 <br>4 5 6 <br>8 | 5 6 1 <br>2 3 4 |
 
 <br>
 
