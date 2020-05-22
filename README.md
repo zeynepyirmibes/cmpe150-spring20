@@ -57,6 +57,10 @@ Lab materials and exercises will be posted here.
 
 * Strings
 
+## [Week 12](https://github.com/zeynepyirmibes/cmpe150-spring20/tree/master/Week%2012)
+
+* Recap of Previous Topics
+
 ## [Additional Exercises](https://github.com/zeynepyirmibes/cmpe150-spring20/tree/master/Additional%20Exercises)
 
 * If you want to practice, you can check out the questions posted each week. 
