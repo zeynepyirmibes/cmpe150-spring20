@@ -61,6 +61,10 @@ Lab materials and exercises will be posted here.
 
 * Recap of Previous Topics
 
+## [Week 13](https://github.com/zeynepyirmibes/cmpe150-spring20/tree/master/Week%2013)
+
+* Structures
+
 ## [Additional Exercises](https://github.com/zeynepyirmibes/cmpe150-spring20/tree/master/Additional%20Exercises)
 
 * If you want to practice, you can check out the questions posted each week. 
