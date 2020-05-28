@@ -61,7 +61,7 @@ Define a **struct** representing a student having **student_id (integer), mt_gra
 
 |  INPUT  |  OUTPUT |
 |-------|-------|
-| 1<br>100 40<br>40 100| 1000 B<br>1001 A |
+| 2<br>100 40<br>40 100| 1000 B<br>1001 A |
 | 3<br>45 25<br>100 100<br>0 90  | 1000 C<br>1001 A<br>1002 B |
 
 ```c
